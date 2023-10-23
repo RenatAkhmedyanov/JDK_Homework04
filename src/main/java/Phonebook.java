@@ -43,7 +43,7 @@ public class Phonebook {
         }
     }
 
-    public void searchContactByPhone(ArrayList<Contact> list){
+    public void searchContactByName(ArrayList<Contact> list){
         System.out.println("Введите имя сотрудника");
         Scanner scn = new Scanner(System.in);
         String input = scn.nextLine();

@@ -31,7 +31,7 @@ public class Main {
                 menu.pressEnter();
 
             } else if (input.equals("4")) {
-                phonebook.searchContactByPhone(contactsList);
+                phonebook.searchContactByName(contactsList);
                 menu.pressEnter();
 
             } else if (input.equals("5")) {
